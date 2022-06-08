@@ -237,8 +237,8 @@ const AddAsset = () => {
 
             axios.post(addAssetUrl, data, {
                 headers: headers
-            }).then(res => toast.success(res.data, { autoClose: 3000 });
-                   setNewAssetId(res.data)).catch(error => {
+            }).then(res =>{ toast.success(res.data, { autoClose: 3000 });
+                   setNewAssetId(res.data)}).catch(error => {
                 toast.error(error.response.data, { autoClose: 3000 })
             })
         }
