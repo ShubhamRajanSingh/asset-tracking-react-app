@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+.add-aaset-header{
+
+    position: absolute;
+width: 173px;
+height: 39px;
+margin-left: 6%;
+margin-top: 5%;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #000000;
+}
+
+
+
+.add-asset-body{
+    position: absolute;
+    display:flex;
+    width:700px;
+    height:80%;
+    flex-direction: column;
+    
+    align-content: space-between;
+    left: 70px;
+    top:15%;
+    overflow-y: scroll;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.add-asset-body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .add-asset-body {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+  }
+
+.asset-type{
+    position: absolute;
+    width:70%;
+    height:5%;
+    margin-top: 10%;
+    margin-left: 5%;
+    
+}
+
+.asset-type-dropdown{
+    position: absolute;
+    width:50%;
+    height:100%;
+    margin-left: 25%;
+    margin-top: -4.5%;
+    background: #D9D9D9;
+    border: 2px solid #167D42;
+}
+
+.asset-purpose{
+    position: absolute;
+    width:70%;
+    height:5%;
+    margin-top: 20%;
+    margin-left: 5%;
+}
+
+.asset-purpose-dropdown{
+    position: absolute;
+    width:50%;
+    height:100%;
+    margin-left: 25%;
+    margin-top: -4.5%;
+    background: #D9D9D9;
+    border: 2px solid #167D42;
+}
+
+.asset-purpose-details{
+    position: absolute;
+    width:80%;
+    height:5%;
+    margin-top: 30%;
+    margin-left: 5%;
+
+}
+
+.purpose-details{
+    position: absolute;
+    width:50%;
+    height:100%;
+    margin-left: 28%;
+    margin-top: -4.5%;
+    background: #D9D9D9;
+    border: 2px solid #167D42;
+
+}
+
+.asset-employee-id{
+    position: absolute;
+    width:70%;
+    height:5%;
+    margin-top: 40%;
+    margin-left: 5%;
+
+}
+
+.employee-id{
+
+    position: absolute;
+    width:50%;
+    height:100%;
+    margin-left: 28%;
+    margin-top: -4.5%;
+    background: #D9D9D9;
+    border: 2px solid #167D42;
+}
+
+.asset-helpers-id{
+    position: absolute;
+    width:70%;
+    height:5%;
+    margin-top: 50%;
+    margin-left: 5%;
+
+}
+
+.helpers-id{
+
+    position: absolute;
+    width:60%;
+    height:100%;
+    margin-left: 28%;
+    margin-top: -4.5%;
+    background: #D9D9D9;
+    border: 2px solid #167D42;
+}
+
+.asset-vehicle-id{
+    position: absolute;
+    width:70%;
+    height:5%;
+    margin-top: 60%;
+    margin-left: 5%;
+}
+
+.vehicle-id{
+
+    position: absolute;
+    width:60%;
+    height:100%;
+    margin-left: 28%;
+    margin-top: -4.5%;
+    background: #D9D9D9;
+    border: 2px solid #167D42;
+}
+
+.geofencing-checkbox{
+    position: absolute;
+    width:4%;
+    height:4%;
+    margin-top: 70%;
+    margin-left: 5%;
+    color:#079824;
+    background-color: #079824;
+}
+.add-asset-button{ 
+    position: absolute;
+    width:40%;
+    height:8%;
+    margin-top: 80%;
+    margin-left: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16;
+    font-weight: bold;
+    color:#FFFFFF;
+    
+    
+
+    
+    background: #2C5E2E;
+    border: 1px solid #2C5E2E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;}
+
+    .geofencing-checkbox-label{
+        position: absolute;
+        width:30%;
+        height:4%;
+        margin-top: 70.5%;
+        margin-left: 10%;
+       
+    }
+
+    .map-container-asset{
+        position: absolute;
+        width: 40%;
+        height: 70%;
+        margin-left: 45%;
+        margin-top:8%;
+        font-family: 'Montserrat', sans-serif;
+    }
+    .coordinates{
+        
+    border: 1px solid #2C5E2E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    }
+
+    .add-asset-back-map{
+        position: absolute;
+        left: 10px;
+        margin-top: 1%;
+      }

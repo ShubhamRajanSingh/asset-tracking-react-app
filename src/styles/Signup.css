@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+.signup_outer {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #ffffff;
+}
+
+.User_Signup_Form {
+    position: fixed;
+    margin-left: 31%;
+    width: 30%;
+    height: 60%;
+    margin-top: 12%;
+    background: #ffffff;
+
+}
+
+
+.signup_box {
+    display: inline;
+}
+
+.signup_user_name {
+
+    position: absolute;
+    width: 55%;
+    height: 9%;
+    margin-top: 7%;
+    margin-left: 23%;
+    border: 3px solid #2C5E2E;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+
+}
+
+.signup_user_password {
+
+    position: absolute;
+    width: 55%;
+    height: 9%;
+    margin-top: 30%;
+    margin-left: 23%;
+
+
+    border: 3px solid #2C5E2E;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+
+}
+
+input {
+
+    border: none;
+}
+
+input:focus {
+    outline: none;
+}
+
+button {
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16;
+    font-weight: bold;
+    color: #FFFFFF;
+
+
+
+    background: #2C5E2E;
+    border: 1px solid #2C5E2E;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.already_account {
+    margin-left: 50%;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    position: absolute;
+    margin-top: 60%;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2C5E2E;
+}
+
+.already_account:hover {
+
+    color: #2C5E2E
+}
+
+.signup_user_email {
+
+    position: absolute;
+    width: 55%;
+    height: 9%;
+    margin-top: 19%;
+    margin-left: 23%;
+
+
+    border: 3px solid #2C5E2E;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.confirm_user_password {
+
+    position: absolute;
+    width: 55%;
+    height: 9%;
+    margin-top: 42%;
+    margin-left: 23%;
+
+
+    border: 3px solid #2C5E2E;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+
+}

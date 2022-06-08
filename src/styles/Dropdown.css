@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+select{
+    height:100%;
+    margin-left: 5%;
+    margin-top: 4%;
+    width: 110%;
+
+    font-family: 'Rubik';
+font-style: normal;
+color: #000000;
+   
+    border: none;
+
+}
+
+select::-webkit-scrollbar {display:none;}
+select::-moz-scrollbar {display:none;}
+select::-o-scrollbar {display:none;}
+select::-google-ms-scrollbar {display:none;}
+select::-khtml-scrollbar {display:none;}
+

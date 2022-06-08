@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+.asset-details-header {
+
+    position: absolute;
+    width: 291px;
+    height: 37px;
+    left: 70px;
+    top: 20px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #000000;
+}
+
+.asset-details-body {
+    position: absolute;
+    display:flex;
+    width:700px;
+    height:80%;
+    flex-direction: column;
+    
+    align-content: space-between;
+    left: 70px;
+    top:15%;
+    overflow-y: scroll;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 15px;
+    color: #000000;
+}
+.asset-details-body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .asset-details-body {
+    -ms-overflow-style: none;  
+    scrollbar-width: none; 
+  }
+
+  
+.asset-details-body-data{
+position: absolute;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 17px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #4A4949;
+}
+
+.helper-id-info{
+box-sizing: border-box;
+overflow: auto;
+width: 500px;
+height: 139px;
+
+background: #FFFFFF;
+border: 1px solid #167D42;
+border-radius: 10px;
+}
+.order-id-info{
+    box-sizing: border-box;
+overflow: auto;
+width: 500px;
+height: 300px;
+display: flex;
+    flex-direction: column;
+background: #FFFFFF;
+border: 1px solid #167D42;
+border-radius: 10px;
+}
+.asset-details-orders{
+    margin-left: 10px;
+}
+.helper-id-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.asset-details-back-map{
+    position: absolute;
+    left: 30px;
+    margin-top: 1.5%;
+    background: #ffffff;
+    background-color: #ffffff;
+    border:"#ffffff"
+  }

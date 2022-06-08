@@ -1,0 +1,17 @@
+
+.search-bar-dropdown{
+    width: 24%;
+    border:none;
+    
+}
+
+
+.list-group::-webkit-scrollbar {
+    display: none;
+  }
+.list-group{
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+    height: 50%; 
+    overflow: scroll;
+}
