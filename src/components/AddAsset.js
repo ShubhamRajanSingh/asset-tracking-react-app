@@ -307,7 +307,8 @@ const AddAsset = () => {
 
                 <input type="checkbox" className="geofencing-checkbox" id="geofencecheck" onChange={event => { setenableGeofence(event.target.checked); }} />
                 <label className="geofencing-checkbox-label"> Enable GeoFencing</label><br></br>
-                <button className='add-asset-button' onClick={() => AddAsset()}>Add Asset<br/> {NewAssetId}</button>
+                     <div className="new-asset-id">{NewAssetId}</div>
+                <button className='add-asset-button' onClick={() => AddAsset()}>Add Asset </button>
             </div>
             {enableGeofence ? (<div className="map-container-asset" >
                 Enter coordinates<br /><br />
