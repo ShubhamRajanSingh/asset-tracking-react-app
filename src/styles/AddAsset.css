@@ -176,6 +176,18 @@ color: #000000;
     color:#079824;
     background-color: #079824;
 }
+.new-asset-id{
+    position: absolute;
+    width:40%;
+    height:8%;
+    margin-top: 75%;
+    margin-left: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16;
+    font-weight: bold;
+    color:#068024;
+
+}
 .add-asset-button{ 
     position: absolute;
     width:40%;
