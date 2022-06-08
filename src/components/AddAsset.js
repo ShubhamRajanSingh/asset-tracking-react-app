@@ -12,6 +12,7 @@ import { ReactComponent as UpperCurl } from '../assets/login_upper_curl.svg';
 
 const AddAsset = () => {
     const [AssetType, setAssetType] = useState("Truck");
+    const [NewAssetId, setNewAssetId] = useState("");
     const [AssetPurpose, setAssetPurpose] = useState("PC&D");
     const [Details, setDetails] = useState("");
     const [EmployeeId, setEmployeeId] = useState("");
@@ -236,7 +237,8 @@ const AddAsset = () => {
 
             axios.post(addAssetUrl, data, {
                 headers: headers
-            }).then(res => toast.success(res.data, { autoClose: 3000 })).catch(error => {
+            }).then(res => toast.success(res.data, { autoClose: 3000 });
+                   setNewAssetId(res.data)).catch(error => {
                 toast.error(error.response.data, { autoClose: 3000 })
             })
         }
@@ -305,7 +307,7 @@ const AddAsset = () => {
 
                 <input type="checkbox" className="geofencing-checkbox" id="geofencecheck" onChange={event => { setenableGeofence(event.target.checked); }} />
                 <label className="geofencing-checkbox-label"> Enable GeoFencing</label><br></br>
-                <button className='add-asset-button' onClick={() => AddAsset()}>Add Asset</button>
+                <button className='add-asset-button' onClick={() => AddAsset()}>Add Asset<br/> {NewAssetId}</button>
             </div>
             {enableGeofence ? (<div className="map-container-asset" >
                 Enter coordinates<br /><br />
