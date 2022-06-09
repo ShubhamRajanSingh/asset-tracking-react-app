@@ -22,7 +22,8 @@ import Dropdown from './Dropdown';
 
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2h1YmhhbXJhamFuc2luZ2giLCJhIjoiY2wyaHp0d3hjMGJjeDNqcTZiOTc3djM1OCJ9.ovqtJ8iBz7d8O6IO57KJmg';
-
+// eslint-disable-next-line import/no-webpack-loader-syntax
+mapboxgl.workerClass = require("worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker").default;
 class Point {
     constructor(x, y) {
         this.x = x;
