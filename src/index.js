@@ -9,6 +9,8 @@ import reportWebVitals from './reportWebVitals';
 import Map from './components/Map';
 import AssetDetails from './components/AssetDetails';
 import AddAsset from './components/AddAsset';
+import PageNotFound from './components/PageNotFound';
+
 import Cookies from 'universal-cookie';
 
 
@@ -31,6 +33,8 @@ root.render(
     <Route path="/Signup" element={<Signup />} exact={true}/>
     <Route path="/AssetDetails" element={<AssetDetails />} exact={true}/>
     <Route path="/addasset" element={<AddAsset />} exact={true}/>
+         <Route path="/*" element={<PageNotFound />} />
+
     <Route  component={Signup} /> 
     </Routes>
   </BrowserRouter>
